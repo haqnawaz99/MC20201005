@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MC20201005</string>
+    <string name="btn_decrease">Decrease</string>
+    <string name="txt_view_message">Counter</string>
+    <string name="btn_increase_text">Increase</string>
+</resources>
