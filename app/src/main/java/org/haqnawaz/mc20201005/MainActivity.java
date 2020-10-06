@@ -40,5 +40,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void ShowLifeCycleActivity (View view)
+    {
+        Intent intent = new Intent(this, ActivityLifeCycle.class);
+        startActivity(intent);
+    }
 
 }

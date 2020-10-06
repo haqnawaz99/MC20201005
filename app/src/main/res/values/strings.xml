@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">MC20201005</string>
     <string name="btn_decrease">Decrease</string>
-    <string name="txt_view_message">Counter</string>
+    <string name="txt_view_message">Main Activity</string>
     <string name="txt_view_message_second_activity">Second Activity</string>
     <string name="btn_increase_text">Increase</string>
+    <string name="btn_second_activity">2nd Activity</string>
+    <string name="btn_life_cycle_activity">Life Cycle Activity</string>
+    <string name="call">Call Number</string>
+    <string name="show_web">Open Website</string>
 </resources>
