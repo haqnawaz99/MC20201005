@@ -6,13 +6,17 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
+    TextView textView = null;
+    int counter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        textView = findViewById(R.id.textView3);
     }
 
     public  void Call(View view){
@@ -27,4 +31,16 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void Plus(View view){
+        counter++;
+        textView.setText(String.valueOf(counter));
+    }
+
+    public void ShowLifeCycleActivity (View view)
+    {
+        Intent intent = new Intent(this, ActivityLifeCycle.class);
+        startActivity(intent);
+    }
+
 }
