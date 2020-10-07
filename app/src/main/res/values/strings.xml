@@ -8,4 +8,5 @@
     <string name="btn_life_cycle_activity">Life Cycle Activity</string>
     <string name="call">Call Number</string>
     <string name="show_web">Open Website</string>
+    <string name="activity_3_greetings">Activity 3 is here</string>
 </resources>
