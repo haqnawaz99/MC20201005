@@ -29,6 +29,7 @@ public class ActivityLifeCycle extends AppCompatActivity {
         super.onResume();
 
         textView.append("onResume invoked\n");
+        int i =0;
 
     }
     @Override
