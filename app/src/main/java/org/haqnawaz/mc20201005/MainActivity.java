@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(this, Main3Activity.class);
         startActivity(intent);
+        int i = 0;
     }
 
 }
