@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     public  void ShowAnotherActivity (View view)
     {
         Intent intent = new Intent(this, Main2Activity.class);
-        String message = "This text is from the Main Activity";
+        String message = "Test";
         intent.putExtra("Message",message);
         startActivity(intent);
     }
